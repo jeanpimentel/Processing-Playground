@@ -2,6 +2,7 @@
 
 require_once dirname(__FILE__) . '/Vertex.php';
 require_once dirname(__FILE__) . '/Edge.php';
+require_once dirname(__FILE__) . '/Math.php';
 
 class Graph
 {
@@ -15,6 +16,9 @@ class Graph
         $this->edges = array();
     }
 
+    /**
+     * VERTEXES FUNCTIONS
+     */
     public function addVertex(Vertex $v)
     {
         if(!$this->containsVertex($v))
@@ -40,7 +44,8 @@ class Graph
         return count($this->vertexes);
     }
 
-    public function getVertexes() {
+    public function getVertexes()
+    {
         return $this->vertexes;
     }
 
@@ -48,6 +53,37 @@ class Graph
     {
         foreach($this->vertexes as $vertex)
             echo $vertex . PHP_EOL;
+    }
+
+    public function mapVertexesTo($width, $height)
+    {
+
+        $maxX = $maxY = -PHP_INT_MAX;
+        $minX = $minY = PHP_INT_MAX;
+
+        foreach($this->vertexes as $vertex)
+        {
+            $minX = min($minX, $vertex->getX());
+            $minY = min($minY, $vertex->getY());
+            $maxX = max($maxX, $vertex->getX());
+            $maxY = max($maxY, $vertex->getY());
+        }
+
+        $distanceX = $maxX - $minX;
+        $distanceY = $maxY - $minY;
+
+        if($distanceX > $distanceY)
+            $height = ceil(($width * $distanceY) / $distanceX);
+        else
+            $width = ceil(($height * $distanceX) / $distanceY);
+
+        foreach($this->vertexes as &$vertex)
+        {
+            $vertex->setX((int) Math::map($vertex->getX(), $minX, $maxX, 0, $width));
+            $vertex->setY((int) Math::map($vertex->getY(), $minY, $maxY, 0, $height));
+        }
+
+        return array($width + 20, $height + 20);
     }
 
 }
