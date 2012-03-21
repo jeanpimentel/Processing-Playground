@@ -12,7 +12,7 @@ class VertexTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->vertex = new Vertex(1, 2);
+        $this->vertex = new Vertex(1, 2, 'myLabel');
     }
 
     public function testGetX()
@@ -37,16 +37,27 @@ class VertexTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(4, $this->vertex->getY());
     }
 
+    public function testGetLabel()
+    {
+        $this->assertEquals('myLabel', $this->vertex->getLabel());
+    }
+
+    public function testSetLabel()
+    {
+        $this->vertex->setLabel('myLabel2');
+        $this->assertEquals('myLabel2', $this->vertex->getLabel());
+    }
+
     public function testEquals()
     {
-        $this->vertex = new Vertex(1,2);
-        $this->assertTrue($this->vertex->equals(new Vertex(1,2)));
+        $this->vertex = new Vertex(1, 2);
+        $this->assertTrue($this->vertex->equals(new Vertex(1, 2)));
     }
 
     public function testNotEquals()
     {
-        $this->vertex = new Vertex(2,1);
-        $this->assertFalse($this->vertex->equals(new Vertex(1,2)));
+        $this->vertex = new Vertex(2, 1);
+        $this->assertFalse($this->vertex->equals(new Vertex(1, 2)));
     }
 
 }

@@ -6,7 +6,7 @@ class Edge
     private $vertexSrc, $vertexDst;
     private $weight;
 
-    function __construct(Vertex $vertexSrc, Vertex $vertexDst, $weight)
+    public function __construct(Vertex $vertexSrc, Vertex $vertexDst, $weight)
     {
         $this->vertexSrc = $vertexSrc;
         $this->vertexDst = $vertexDst;
