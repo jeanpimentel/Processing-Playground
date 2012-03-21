@@ -1,9 +1,12 @@
 <?php
 
-function compile(Graph $graph, $name = NULL)
+function compile(Graph $graph, $name, $width, $height)
 {
     $name = (empty($name) ? date('YmdHis') : $name) . '.pde';
     $date = date('Y-m-d H:i:s');
+
+    $width += 100;
+    $height += 100;
 
     $pde = "/**
 * 4sq Vertexes
@@ -12,22 +15,18 @@ function compile(Graph $graph, $name = NULL)
 
 void setup()
 {
-  size(1000, 1000);
+  size({$width}, {$height});
   background(102);
 }
 
 void draw() {
-  stroke(255);
 ";
 
-    $vertexes = $graph->getVertexes();
-    $pre = array_shift($vertexes);
-    foreach($vertexes as $v)
+    foreach($graph->getVertexes() as $vertex)
     {
-        $pde .= sprintf("  line(%d, %d, %d, %d);\n", $pre->getY(), $pre->getX(), $v->getY(), $v->getX());
-        $pre = $v;
+        $pde .= sprintf('  ellipse(%d, %d, 5, 5);' . "\n", $vertex->getX() + 50, $vertex->getY() + 50);
+        $pde .= sprintf('  text("(%d, %d, %s)", %d, %d);' . "\n", $vertex->getX(), $vertex->getY(), $vertex->getLabel(), $vertex->getX() + 55, $vertex->getY() + 55);
     }
-
     $pde .= "}";
 
     if(is_writable(__DIR__))
