@@ -1,5 +1,6 @@
 <?php
 
+require_once 'functions.php';
 require_once '../../lib/Graph.php';
 
 $json = json_decode(file_get_contents('../../4sq.json'));
@@ -11,4 +12,6 @@ foreach($json->response->checkins->items as $checkin)
 
 header('Content-Type: text/plain; charset=utf-8');
 $graph->printVertexes();
+
+compile($graph, 'only-vertexes');
 ?>

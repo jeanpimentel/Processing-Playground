@@ -40,6 +40,10 @@ class Graph
         return count($this->vertexes);
     }
 
+    public function getVertexes() {
+        return $this->vertexes;
+    }
+
     public function printVertexes()
     {
         foreach($this->vertexes as $vertex)
