@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "notifications": [
+    {
+      "type": "notificationTray",
+      "item": {
+        "unreadCount": 4
+      }
+    }
+  ],
+  "response": {
+    "checkins": {
+      "count": 1627,
+      "items": [
+        {
+          "id": "4f68b3cde4b0fef78fe9c6c1",
+          "createdAt": 1332261837,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4b8d24bbf964a52012ea32e3",
+            "name": "Bolt Brasil",
+            "contact": {
+              "phone": "03133357100",
+              "formattedPhone": "(31) 3335-7100",
+              "twitter": "boltbrasil"
+            },
+            "location": {
+              "address": "R. Santa Catarina, 1627",
+              "crossStreet": "Av. do Contorno",
+              "lat": -19.934986435446856,
+              "lng": -43.94702911376953,
+              "postalCode": "30170-081",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d124941735",
+                "name": "Office",
+                "pluralName": "Offices",
+                "shortName": "Corporate \/ Office",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/building\/default_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 1301,
+              "usersCount": 72,
+              "tipCount": 6
+            },
+            "url": "http:\/\/www.boltbrasil.com.br"
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f68a94ae4b06cd27a275185",
+          "createdAt": 1332259146,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4bfb144e565f76b03a1d05db",
+            "name": "Spoleto Culinária Italiana",
+            "contact": {
+              "phone": "03132929234",
+              "formattedPhone": "(31) 3292-9234",
+              "twitter": "spoleto"
+            },
+            "location": {
+              "address": "Diamond Mall",
+              "lat": -19.928171,
+              "lng": -43.947399,
+              "postalCode": "30180-111",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d110941735",
+                "name": "Italian Restaurant",
+                "pluralName": "Italian Restaurants",
+                "shortName": "Italian",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/food\/italian_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 368,
+              "usersCount": 180,
+              "tipCount": 13
+            },
+            "url": "http:\/\/www.spoleto.com.br"
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f67b706e4b02519530a6fa8",
+          "createdAt": 1332197126,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4ca5cc059f4776b0e8ec9713",
+            "name": "La Paline Padaria e Confeitaria",
+            "contact": {
+
+            },
+            "location": {
+              "address": "Rua Rio de Janeiro, 861",
+              "crossStreet": "at Rua Tupis",
+              "lat": -19.922178,
+              "lng": -43.938809,
+              "city": "Belo Horizonte",
+              "state": "Minas Gerais \/ Brasil",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16a941735",
+                "name": "Bakery",
+                "pluralName": "Bakeries",
+                "shortName": "Bakery",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/food\/bakery_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 144,
+              "usersCount": 36,
+              "tipCount": 2
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f666b69e4b0eae10c2b57d7",
+          "createdAt": 1332112233,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4f666b62e4b06cb9fd122860",
+            "name": "Posto Patropi BR",
+            "contact": {
+
+            },
+            "location": {
+              "lat": -19.904647827148438,
+              "lng": -43.934600830078125
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d113951735",
+                "name": "Gas Station or Garage",
+                "pluralName": "Gas Stations or Garages",
+                "shortName": "Gas Station \/ Garage",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/shops\/gas_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 1,
+              "usersCount": 1,
+              "tipCount": 0
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f6591cde4b06cb9fc4a3914",
+          "createdAt": 1332056525,
+          "type": "checkin",
+          "shout": "Alimentar..",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4c545f7906901b8d7c59b34b",
+            "name": "Habib's",
+            "contact": {
+              "phone": "03134887676",
+              "formattedPhone": "(31) 3488-7676",
+              "twitter": "rede_habibs"
+            },
+            "location": {
+              "address": "Av. Cristiano Machado, 2450",
+              "lat": -19.886586185908207,
+              "lng": -43.92903804637451,
+              "postalCode": "31110-230",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16e941735",
+                "name": "Fast Food Restaurant",
+                "pluralName": "Fast Food Restaurants",
+                "shortName": "Fast Food",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/food\/fastfood_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 854,
+              "usersCount": 421,
+              "tipCount": 24
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f64a421e4b0777dfc85e1f7",
+          "createdAt": 1331995681,
+          "type": "checkin",
+          "isMayor": true,
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4f60893fe4b0f492ad6d338b",
+            "name": "Lavanderia Lav Clean",
+            "contact": {
+
+            },
+            "location": {
+              "address": "Av. Bias Fortes, 1122 - Lourdes, Belo Horizonte - Minas Gerais, 30170-011",
+              "lat": -19.924449920654297,
+              "lng": -43.94396209716797,
+              "postalCode": "30170-011",
+              "city": "Belo Horizonte",
+              "state": "Minas Gerais"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1fc941735",
+                "name": "Laundromat or Dry Cleaner",
+                "pluralName": "Laundromats or Dry Cleaners",
+                "shortName": "Laundry",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/shops\/laundry_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 2,
+              "usersCount": 1,
+              "tipCount": 0
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f63f05fe4b0ea77cd07182c",
+          "createdAt": 1331949663,
+          "type": "checkin",
+          "private": true,
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4dbb46b60cb691071c867045",
+            "name": "Reduto da Cerveja",
+            "contact": {
+              "phone": "03125151770",
+              "formattedPhone": "(31) 2515-1770"
+            },
+            "location": {
+              "address": "Av. Álvares Cabral, 1030",
+              "crossStreet": "esq. R. Curitiba",
+              "lat": -19.929231,
+              "lng": -43.944109,
+              "postalCode": "30170-120",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d186941735",
+                "name": "Liquor Store",
+                "pluralName": "Liquor Stores",
+                "shortName": "Liquor Store",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/shops\/default_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 433,
+              "usersCount": 204,
+              "tipCount": 15
+            },
+            "url": "http:\/\/www.redutodacerveja.com.br"
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f63c2dde4b0aa8f6673e733",
+          "createdAt": 1331938013,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4bf6913c94b2a59338a8adee",
+            "name": "Praça Sete de Setembro (Praça 7)",
+            "contact": {
+
+            },
+            "location": {
+              "address": "Av. Afonso Pena, 700",
+              "crossStreet": "Av. Amazonas",
+              "lat": -19.91911032850518,
+              "lng": -43.93860697746277,
+              "postalCode": "30120-010",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d164941735",
+                "name": "Plaza",
+                "pluralName": "Plazas",
+                "shortName": "Plaza \/ Square",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/parks_outdoors\/default_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 4460,
+              "usersCount": 1240,
+              "tipCount": 45
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f635f8de4b02cbb7dfb236e",
+          "createdAt": 1331912589,
+          "type": "checkin",
+          "shout": "LOTADO!!",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4c092ecb7e3fc928587ff182",
+            "name": "Chalé Mineiro",
+            "contact": {
+
+            },
+            "location": {
+              "address": "Av. Barbacena, 252",
+              "lat": -19.921235,
+              "lng": -43.955261,
+              "postalCode": "30190-130",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16b941735",
+                "name": "Brazilian Restaurant",
+                "pluralName": "Brazilian Restaurants",
+                "shortName": "Brazilian",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/food\/brazilian_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "stats": {
+              "checkinsCount": 792,
+              "usersCount": 384,
+              "tipCount": 18
+            }
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        },
+        {
+          "id": "4f632eede4b03c27088d61d3",
+          "createdAt": 1331900141,
+          "type": "checkin",
+          "timeZone": "America\/Sao_Paulo",
+          "timeZoneOffset": -180,
+          "venue": {
+            "id": "4b8d24bbf964a52012ea32e3",
+            "name": "Bolt Brasil",
+            "contact": {
+              "phone": "03133357100",
+              "formattedPhone": "(31) 3335-7100",
+              "twitter": "boltbrasil"
+            },
+            "location": {
+              "address": "R. Santa Catarina, 1627",
+              "crossStreet": "Av. do Contorno",
+              "lat": -19.934986435446856,
+              "lng": -43.94702911376953,
+              "postalCode": "30170-081",
+              "city": "Belo Horizonte",
+              "state": "MG",
+              "country": "Brazil"
+            },
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d124941735",
+                "name": "Office",
+                "pluralName": "Offices",
+                "shortName": "Corporate \/ Office",
+                "icon": {
+                  "prefix": "https:\/\/foursquare.com\/img\/categories\/building\/default_",
+                  "sizes": [
+                    32,
+                    44,
+                    64,
+                    88,
+                    256
+                  ],
+                  "name": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "stats": {
+              "checkinsCount": 1301,
+              "usersCount": 72,
+              "tipCount": 6
+            },
+            "url": "http:\/\/www.boltbrasil.com.br"
+          },
+          "photos": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "comments": {
+            "count": 0,
+            "items": [
+
+            ]
+          },
+          "source": {
+            "name": "foursquare for Android",
+            "url": "https:\/\/foursquare.com\/download\/#\/android"
+          }
+        }
+      ]
+    }
+  }
+}
